@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hangman Game</h1>
+        <h2>Guess the word using below given alphabets</h2>
+        <div class="alphab"></div>
+        <p>Get a hint if you need any help</p>
+        <div class="hint hidden">
+            <p>Hint:</p>
+            <p class="hintText">Sample hint for text</p>
+        </div>
+        <div class="hiddenWord"></div>
+        <h3>Remaining Lives: <span class="lives">5</span></h3>
+        <div class="container4">
+            <button class="btn1">Hint</button>
+            <button class="btn2">Reset</button>
+        </div>
+    </div>
+    <div class="notifHidden hidden">
+        <h2>Game Over</h2>
+        <h3 class="notifContent">You Won</h3>
+        <h4>Correct Word: <span class="notifS"></span></h4>
+        <button class="playA">Play Again</button>
+    </div>
+</body>
+<script src="logic.js"></script>
+</html>

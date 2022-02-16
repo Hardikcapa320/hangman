@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    font-size: 25px;
+}
+.btn1{
+    margin-right: 550px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.btn2{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+}
+.notifHidden{
+    text-align: center;
+    background-color: blueviolet;
+    margin: 50px;
+    margin-left: 745px;
+    margin-right: 745px;
+}
+.disabled {
+    pointer-events: none;
+    background-color: darkgray;
+  }
+.hidden{
+    display: none;
+}
